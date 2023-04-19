@@ -33,6 +33,7 @@ class CategoryAdmin(admin.ModelAdmin):
 class CommentAdmin(admin.ModelAdmin):
     list_display = ('review', 'author', 'text', 'pub_date')
 
+
 @admin.register(Review)
 class ReviewAdmin(admin.ModelAdmin):
     list_display = ('title', 'text', 'author', 'pub_date', 'score')
