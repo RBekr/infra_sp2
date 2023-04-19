@@ -1,0 +1,13 @@
+gunicorn==20.0.4
+requests
+Django
+djangorestframework
+django-filter
+djangorestframework-simplejwt
+python-dotenv
+pandas
+PyJWT
+pytest
+pytest-django
+pytest-pythonpath
+psycopg2-binary==2.8.6
